@@ -1,7 +1,7 @@
 # NIC Infrastructure Guide
 
 ## Data Flow Diagram
-![infr_diagram](docs/images/NIC_dataFlow_20211209.jpg)
+![infr_diagram](https://github.com/CVNR/nic_intro/blob/71b373866129a5313fe9492c71282327d1a8bcc0/docs/images/NIC_dataFlow_20211209.jpg)
 
 ## Access
 To access the CVNR Neuroimaging Core computing resources you must have the following:
@@ -28,5 +28,7 @@ Select the New Session icon and input the following settings:
 * Login: NIC account username
 * Session type:  XFCE
 
-#### Filezilla
+#### FileZilla
+[FileZilla](https://filezilla-project.org/download.php?type=client) is a secure file transfer protocol (SFTP) client used for moving files to and from NIC workstations in a protected manner.
+
 
