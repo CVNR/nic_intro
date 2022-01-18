@@ -1,7 +1,7 @@
 # NIC Infrastructure Guide
 
 ## Data Flow Diagram
-![infr diagram](images/NIC_dataFlow_20211209.jpg)
+![infr_diagram](docs/images/NIC_dataFlow_20211209.jpg)
 
 ## Access
 To access the CVNR Neuroimaging Core computing resources you must have the following:
@@ -23,7 +23,10 @@ After installation, in the `Server` field, input `vpn.emory.edu` and use your Em
 
 Setting up X2go:
 Select the New Session icon and input the following settings:
-* Session name:  something descriptive (such as the name of the workstation you're connecting to)
+* Session name:  something descriptive (such as the name of the workstation you're connecting to: lens, rod, cone, falx, or ralph)
 * Host:  workstationName.birc.emory.edu (replace "workstationName" with lens, rod, cone, falx, or ralph)
 * Login: NIC account username
-* Session type:  
+* Session type:  XFCE
+
+#### Filezilla
+
