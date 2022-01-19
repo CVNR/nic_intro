@@ -6,6 +6,6 @@ Welcome to the Neuroimaging Core (NIC) GitHub page! In this repository you will 
 
 [Neuroimaging Intro Guide](docs/nic_intro_pre-processing_guide.md) - Introduction to neuroimaging and a guide to how neuroimaging data analysis is done at the NIC
 
-[Structural Pre-processing Guide](docs/nic_structural_pre-processing_guide.md)
+[Structural Pre-processing Guide](docs/nic_structural_pre-processing_guide.md) - Walkthrough on how to run the NIC structural MRI data pre-processing pipeline, the basics of what each script is doing, as well as resources for more in-depth understanding of what is being done to the data and why
 
 [Data Recovery Procedure](docs/Data_Recovery_Guide.md) - Instructions on how to recover lost neuroimaging project data
