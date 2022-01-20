@@ -40,30 +40,6 @@ To transfer files between a local machine and one of the workstations, open File
 
 A notification about the server's host key being unknown may appear.  If so, select "Always trust this host" and press "OK".  In the `Local Site` and `Remote Site` directory windows, navigate to where the source and destination of the files to be transferred will be and drag the files from their source to their destination.  The status of the transfer(s) will be shown in the window pane at the bottom.
 
-## Basic Linux Commands
-`ls` - lists contents(files) within a directory(folder) \
-ex. `ls /data/qb/Atlanta/projects`
-
-
-`cd` - changes current working directory \
-ex. `cd /data/qb/Atlanta`
-
-
-`mkdir` - makes a new directory \
-ex. `mkdir ~/Documents/testFolder`
-
-
-`less` - browse the content of a file \
-ex. `less ~/Documents/testFolder/testFile.txt`
-Press the `q` key to exit `less`.
-
-
-`htop` - shows what processes are currently running on a workstation \
-Press `CTRL-C` to exit `htop`
-
-
-`clear` - clears the current terminal window of previous command output
-
 ## Contact Info
 #### Mark Vernon
 Email:  mverno2@emory.edu \
