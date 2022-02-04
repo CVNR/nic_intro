@@ -18,19 +18,16 @@
 SOURCE_DIR=`echo ${PROJECT_DIR/projects/sourcedata}`
 
 # Activate dcm2bids conda environment
-# will need to be updated once miniconda3 is installed at /opt/
-source ~/miniconda3/etc/profile.d/conda.sh
-conda activate dcm2bids
+source /opt/miniconda3/etc/profile.d/conda.sh
+conda activate dcm2bids_v1
 
 # Strip out subject and session labels
 SUB_LABEL=`echo ${SUBJECT} | cut -c 5-`
 SES_LABEL=`echo ${SESSION} | cut -c 5-`
 
 # Runs dcm2bids with options
-echo "dcm2bids -d ${SOURCE_DIR}/${SUB_LABEL}/${SES_LABEL} \
+dcm2bids -d ${SOURCE_DIR}/${SUB_LABEL}/${SES_LABEL} \
          -p ${SUB_LABEL} \
          -s ${SES_LABEL} \
          -c ${PROJECT_DIR}/code/dcm2bids_config.json \
-         -o ${PROJECT_DIR}"
-         
-         
+         -o ${PROJECT_DIR}
