@@ -51,24 +51,11 @@ cd /data/qb/Atlanta/projects/Woodbury-CDA2/code/anat-T1w
 
 You will be running a number of preprocessing steps to “clean up” the images.  Some of these steps produce numerical indicators of data quality.  It is also recommended that you review the output images at each step for errors.  No automated tool is as good at finding errors as the human eye.  Common image quality issues are listed in the script details sections below.
 
-As of June 2020, new NIC neuroimaging projects are organized in the BIDS format (described in the next section).  Each script in a pipeline adds a label to the end of the image filename.  For example, the `02_Matlab_denoise.sh` script adds the `_denoised` label to the end of the input anatomical image filename:
+As of June 2020, new NIC neuroimaging projects are organized in the BIDS format (see [dcm2bids guide]() for help in converting sourcedata from the scanner to BIDS format).  Each script in a pipeline adds a label to the end of the image filename.  For example, the `02_Matlab_denoise.sh` script adds the `_denoised` label to the end of the input anatomical image filename:
 
 Input image:   `sub-123_ses-pre_T1w_deoblq_RPI.nii.gz`
 
 Output image:  `sub-123_ses-abc_T1w_deoblq_RPI_denoised.nii.gz`
 
-
-## Initialization of Data Format and File Structure (BIDS)
-
-The [Brain Imaging Data Structure](https://bids-specification.readthedocs.io/en/stable/01-introduction.html) (BIDS) is a standardized way of organizing neuroimaging data which was developed with the input of the neuroscientist community.  The BIDS format makes it easier to reproduce data analysis from researcher to researcher as well as utilize a growing number of data analysis packages which accept BIDS datasets as input.  Fortunately, the `dcm2bids` tool is available to rename and organize neuroimaging scan data into BIDS format for you.  Contact the Neuroimaging Core to setup a time to have `dcm2bids` set up for your NIC user account.
-
-The `dcm2bids` tool has been incorporated into a script to assist in the standardization and automation of formatting datasets.  This script converts the raw dicom `.dcm` files into the compressed NIfTI `.nii.gz` format, then renames these NIfTI files and places them in the project directory organized into folders according to the BIDS format.  Before running this script, make sure to export your environment variables for the project directory, subject, and session as described in the [General Considerations](https://github.com/CVNR/nic_intro/blob/main/docs/nic_intro_pre-processing_guide.md#general-considerations) section.  Run the script from the project code directory:
-
-```Bash
-cd $PROJECT_DIR/code
-./00_dcm2bids.sh
-```
-
-Review the output to make sure each scan was converted properly.  Navigate to the `dcm2bids` log directory and review the subject/session log for any error messages, such as multiple scans being matched to the same datatype or task.  The `dcm2bids` tool handles these duplicate matches by assigning a run label `run-1`, `run-2` etc… to the filename.  A duplicate generally occurs when a scan is repeated due to excessive subject motion in the scanner or some technical error during the scan.  These superfluous scans can usually be distinguished from a scan of interest by the number of dicoms in the scan sourcedata folder. Usually, the scan that was aborted will have fewer dicoms than the completed scan. If both scans have the same number of dicoms, then the images should be reviewed with someone from the NIC along with the PI to determine the intended scan to be analyzed.
-  
+ 
   [^1]: Some scripts may utilize “PROJ_DIR” instead of “PROJECT_DIR”, review the script in a text editor to check

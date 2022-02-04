@@ -18,6 +18,7 @@
 SOURCE_DIR=`echo ${PROJECT_DIR/projects/sourcedata}`
 
 # Activate dcm2bids conda environment
+# will need to be updated once miniconda3 is installed at /opt/
 source ~/miniconda3/etc/profile.d/conda.sh
 conda activate dcm2bids
 
