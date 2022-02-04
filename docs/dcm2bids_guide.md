@@ -33,12 +33,12 @@ ls
 cat ${SUBJECT}_${SESSION}_<timeStamp>.log
 ```
 
-Look for any error messages, such as multiple scans being matched to the same datatype or task.  The `dcm2bids` tool handles these duplicate matches by assigning a run label `run-01`, `run-02` etc\u2026 to the filename.  A duplicate generally occurs when a scan is repeated due to excessive participant motion in the scanner or some technical error during the scan. Often, the second scan (i.e. the one labeled `run-2`) is the image to keep, but this is not always the case.\
+Look for any error messages, such as multiple scans being matched to the same datatype or task.  The `dcm2bids` tool handles these duplicate matches by assigning a run label `run-01`, `run-02` etc... to the filename.  A duplicate generally occurs when a scan is repeated due to excessive participant motion in the scanner or some technical error during the scan. Often, the second scan (i.e. the one labeled `run-2`) is the image to keep, but this is not always the case.
 
 Change directories to the BIDS output NIfTI folders and review the images with your PI and/or someone from the NIC to help identify the image to be kept and rename this image to remove the unnecessary run label from the file name. Delete the duplicate NIfTI images and their associated .json sidecars. Use the `mv` command to rename images; filling in the specifics of the image to be kept. In the following example, the second duplicate (`run-02`) of the T1w scan is being kept:
 
 ```Bash
 cd ${PROJECT_DIR}/${SUBJECT}/${SESSION}/anat
-mv ${SUBJECT}_${SESSION}_T1w_run-02.nii.gz mv ${SUBJECT}_${SESSION}_T1w.nii.gz
+mv ${SUBJECT}_${SESSION}_T1w_run-02.nii.gz ${SUBJECT}_${SESSION}_T1w.nii.gz
 mv ${SUBJECT}_${SESSION}_T1w_run-02.json ${SUBJECT}_${SESSION}_T1w.json
 ```
