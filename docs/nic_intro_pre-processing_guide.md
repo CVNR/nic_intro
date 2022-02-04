@@ -51,7 +51,7 @@ cd /data/qb/Atlanta/projects/Woodbury-CDA2/code/anat-T1w
 
 You will be running a number of preprocessing steps to “clean up” the images.  Some of these steps produce numerical indicators of data quality.  It is also recommended that you review the output images at each step for errors.  No automated tool is as good at finding errors as the human eye.  Common image quality issues are listed in the script details sections below.
 
-As of June 2020, new NIC neuroimaging projects are organized in the BIDS format (see [dcm2bids guide]() for help in converting sourcedata from the scanner to BIDS format).  Each script in a pipeline adds a label to the end of the image filename.  For example, the `02_Matlab_denoise.sh` script adds the `_denoised` label to the end of the input anatomical image filename:
+As of June 2020, new NIC neuroimaging projects are organized in the BIDS format (see [dcm2bids guide](docs/dcm2bids_guide.md) for help in converting sourcedata from the scanner to BIDS format).  Each script in a pipeline adds a label to the end of the image filename.  For example, the `02_Matlab_denoise.sh` script adds the `_denoised` label to the end of the input anatomical image filename:
 
 Input image:   `sub-123_ses-pre_T1w_deoblq_RPI.nii.gz`
 
