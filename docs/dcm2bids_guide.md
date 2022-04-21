@@ -16,7 +16,7 @@ export SESSION=ses-<sesID>
 
 ## Run dcm2bids.sh script
 
-Change directories to your project code directory and run the dcm2bids.sh script:
+Change directories to your project code directory and run the dcm2bids.sh script. If you do not see this script in your project code directory, please contact the NIC for assistance:
 
 ```Bash
 cd ${PROJECT_DIR}/code
