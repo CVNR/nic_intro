@@ -6,10 +6,9 @@ The `dcm2bids` tool has been incorporated into a script to assist in the standar
 
 ## Set up environment variables
 
-Before running the dcm2bids.sh script, first setup your environment variables; substituting in your project directory, subject, and session:
+Before running the dcm2bids.sh script, first setup your environment variables; substituting in your subject and session IDs:
 
 ```Bash
-export PROJECT_DIR=/data/qb/Atlanta/projects/<projectName>
 export SUBJECT=sub-<subID>
 export SESSION=ses-<sesID>
 ```
