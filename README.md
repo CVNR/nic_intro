@@ -13,3 +13,5 @@ Welcome to the Neuroimaging Core (NIC) GitHub page! In this repository you will 
 [Functional Pre-processing Guide](https://github.com/CVNR/nic_functional/blob/b4a0d155c95c2d8e5b03a12f0cb61c2a12311563/docs/pre-processing_guide_functional.md) - A walkthrough on how to run the NIC functional MRI data pre-processing pipeline, some suggestions on reviewing the output, as well as descriptions of what each processing step is doing
 
 [Data Recovery Procedure](docs/Data_Recovery_Guide.md) - Instructions on how to recover lost neuroimaging project data
+
+[Tips for Data Acquisition](docs/NIC_Tips_for_MRI_Acquisition.md) - Tips to reduce the loss of data and provide a smoother data collecting experience
