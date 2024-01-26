@@ -9,7 +9,7 @@ To access the CVNR Neuroimaging Core computing resources you must have the follo
 * NIC account (with access to the CVNR NIC subnet)
 * Emory account (or a PI-sponsored Emory account for non-Emory associated personnel)
 
-The NIC workstations (lens, rod, cone, falx, ralph) and data servers are located on the Emory academic network. These resources are accessible from any computer at the VA CVNR on the wired Emory network or from a computer on the wireless Emory network via the Emory VPN. The NIC workstations and data servers are also available remotely via access to the CVNR NIC subnet.
+The NIC processing servers (lens, rod, cone, falx, ralph) and data storage servers are located on the Emory academic network. These resources are accessible from any computer at the VA CVNR on the wired Emory network or from a computer on the wireless Emory network via the Emory VPN. The NIC workstations and data servers are also available remotely via access to the CVNR NIC subnet.
 
 ## Suggested Software
 #### VPN
