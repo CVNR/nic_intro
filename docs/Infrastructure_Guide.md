@@ -1,7 +1,7 @@
 # NIC Infrastructure Guide
 
 ## Data Flow Diagram
-![infr_diagram](https://github.com/CVNR/nic_intro/blob/88182ec3674d5ff6163fd478b4f0267a9a358de4/docs/images/NIC_dataFlow_20240112.jpg)
+![infr_diagram](https://github.com/CVNR/nic_intro/blob/23e4502fc4c2f0f27b9a7335ad1f2939589ec0ec/docs/images/NIC_dataFlow_20240112.jpg)
 
 ## Access
 To access the CVNR Neuroimaging Core computing resources you must have the following:
