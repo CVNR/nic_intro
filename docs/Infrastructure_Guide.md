@@ -31,11 +31,11 @@ After logging into TurboVNC for the first time, you should be prompted to change
 When you are done with your session, make sure to log out.  If you have a processing job running and you intend to return to that session, you can simply close the TurboVNC window.  Then when you log back in via TurboVNC, a list of your currently open sessions will be presented.  You can select which session to connect to, then pickup where you left off.
 
 #### FileZilla
-[FileZilla](https://filezilla-project.org/download.php?type=client) is a secure file transfer protocol (SFTP) client used for moving files to and from NIC workstations in a protected manner.
+[FileZilla](https://filezilla-project.org/download.php?type=client) is a secure file transfer protocol (SFTP) client used for moving files to and from NIC servers in a protected manner.
 
 Setting up a FileZilla SFTP session:
-To transfer files between a local machine and one of the workstations, open FileZilla and input the following settings then select "Quickconnect":
-* `Host`:  workstationName.birc.emory.edu (replace "workstationName" with `lens`, `rod`, `cone`, `falx`, or `ralph`)
+To transfer files between a local machine and one of the servers, open FileZilla and input the following settings then select "Quickconnect":
+* `Host`:  serverName.birc.emory.edu (replace "serverName" with `lens`, `rod`, `cone`, `falx`, or `ralph`)
 * `Username`:  NIC account username
 * `Password`:  NIC account password
 * `Port`:  22
