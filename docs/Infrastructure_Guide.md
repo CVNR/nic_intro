@@ -19,9 +19,10 @@ Download and install the version appropriate for your operating system: \
 After installation, in the `Server` field, input `vpn.emory.edu` and use your EmoryID account credentials for the username and password.
 
 #### TurboVNC
-[TurboVNC for Mac](https://sourceforge.net/projects/turbovnc/files/3.0.1/TurboVNC-3.0.1-x86_64.dmg/download)
+TurboVNC is a remote desktop application which allows accelerated 3D graphics from NIC servers to be rendered remotely on client computers.
+[Download TurboVNC for Mac](https://sourceforge.net/projects/turbovnc/files/3.0.1/TurboVNC-3.0.1-x86_64.dmg/download)
 
-[TurboVNC for Windows](https://sourceforge.net/projects/turbovnc/files/3.0.1/TurboVNC-3.0.1-x64.exe/download)
+[Download TurboVNC for Windows](https://sourceforge.net/projects/turbovnc/files/3.0.1/TurboVNC-3.0.1-x64.exe/download)
 
 After running the TurboVNC viewer, in the “VNC server” field, input:  <userName>@<serverName>.birc.emory.edu  (replace <username> with your NIC account username, and <serverName> with the name of the server:  “cone”, “lens”, or “ralph” with no quotes, i.e. mvernon@cone.birc.emory.edu).
  
