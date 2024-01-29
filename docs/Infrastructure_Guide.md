@@ -9,7 +9,21 @@ To access the CVNR Neuroimaging Core computing resources you must have the follo
 * NIC account (with access to the CVNR NIC subnet)
 * EmoryID account (or a PI-sponsored Emory account for non-Emory associated personnel) (for remote access)
 
-The NIC processing and data storage servers are hosted from an isolated CVNR NIC subnet within the Emory academic network.  These servers are accessible from the computers in the Neuroimaging Lab (VAMC 12C-138) or remotely via the Emory VPN.  They are not reachable from computers on the VA network.
+The NIC processing and data storage servers are hosted from an isolated CVNR NIC subnet within the Emory academic network.  These servers are accessible from the computers in the Neuroimaging Lab (VAMC 12C-138) or remotely via the Emory VPN.  They are not reachable from computers on the VA network.  
+
+Listed below are the NIC processing servers available for users:
+New servers!:
+shar
+selune
+lolth
+
+cone
+lens
+ralph
+
+legacy software servers:
+rod
+falx
 
 ## Suggested Software
 #### VPN
@@ -24,7 +38,7 @@ TurboVNC is a remote desktop application which allows accelerated 3D graphics fr
 
 [Download TurboVNC for Windows](https://sourceforge.net/projects/turbovnc/files/3.0.1/TurboVNC-3.0.1-x64.exe/download)
 
-After running the TurboVNC viewer, in the “VNC server” field, input:  <userName>@<serverName>.birc.emory.edu  (replace <username> with your NIC account username, and <serverName> with the name of the server:  “cone”, “lens”, or “ralph” with no quotes, i.e. mvernon@cone.birc.emory.edu).
+After running the TurboVNC viewer, in the “VNC server” field, input:  <userName>@<serverName>.birc.emory.edu  (replace <username> with your NIC account username, and <serverName> with the name of the server, i.e. mvernon@cone.birc.emory.edu).
  
 After logging into TurboVNC for the first time, you should be prompted to change your password.  You will first be asked to input your current LDAP password then input what you’d like your new password to be (there is an 8 character minimum), then enter the new password one more time to confirm, when prompted.
  
