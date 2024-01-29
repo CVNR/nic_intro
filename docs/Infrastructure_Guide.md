@@ -11,19 +11,13 @@ To access the CVNR Neuroimaging Core computing resources you must have the follo
 
 The NIC processing and data storage servers are hosted from an isolated CVNR NIC subnet within the Emory academic network.  These servers are accessible from the computers in the Neuroimaging Lab (VAMC 12C-138) or remotely via the Emory VPN.  They are not reachable from computers on the VA network.  
 
-Listed below are the NIC processing servers available for users:
-New servers!:
-shar
-selune
-lolth
+Listed below are the NIC processing servers available for users: \
 
-cone
-lens
-ralph
+New servers:  shar, selune, lolth \
 
-legacy software servers:
-rod
-falx
+Aged servers:  cone, lens, ralph \
+
+Legacy software servers:  rod, falx \
 
 ## Suggested Software
 #### VPN
