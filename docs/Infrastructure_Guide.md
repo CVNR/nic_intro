@@ -9,7 +9,7 @@ To access the CVNR Neuroimaging Core computing resources you must have the follo
 * NIC account (with access to the CVNR NIC subnet)
 * EmoryID account (or a PI-sponsored Emory account for non-Emory associated personnel) (for remote access)
 
-The NIC processing and data storage servers are hosted from an isolated CVNR NIC subnet within the Emory academic network.  These servers are accessible from the computers in the Neuroimaging Lab (VAMC 12C-138) or remotely via the Emory VPN.  They are not reachable from computers on the VA network.  
+The NIC processing and data storage servers are hosted from an isolated CVNR NIC subnet within the Emory academic network.  These servers can be logged into from the computers in the Neuroimaging Lab (VAMC 12C-138) or remotely via the Emory VPN.  The servers are inaccessible from computers on the VA network.  
 
 #### Listed below are the NIC processing servers available for users:
 
