@@ -13,11 +13,11 @@ The NIC processing and data storage servers are hosted from an isolated CVNR NIC
 
 #### Listed below are the NIC processing servers available for users:
 
-New servers:  shar, selune, lolth
+New server names:  `shar`, `selune`, `lolth`
 
-Aged servers:  cone, lens, ralph
+Aged server names:  `cone`, `lens`, `ralph`
 
-Legacy software servers:  rod, falx 
+Legacy software server names:  `rod`, `falx` 
 
 ## Suggested Software
 #### VPN
@@ -32,7 +32,7 @@ TurboVNC is a remote desktop application which allows accelerated 3D graphics fr
 
 [Download TurboVNC for Windows](https://sourceforge.net/projects/turbovnc/files/3.0.1/TurboVNC-3.0.1-x64.exe/download)
 
-After running the TurboVNC viewer, in the “VNC server” field, input:  <userName>@<serverName>.birc.emory.edu  (replace <username> with your NIC account username, and <serverName> with the name of the server, i.e. mvernon@cone.birc.emory.edu).
+After running the TurboVNC viewer, in the “VNC server” field, input:  <userName>@<serverName>.birc.emory.edu  (replace <username> with your NIC account username, and <serverName> with the one of the server names listed above, i.e. mvernon@cone.birc.emory.edu).
  
 After logging into TurboVNC for the first time, you should be prompted to change your password.  You will first be asked to input your current LDAP password then input what you’d like your new password to be (there is an 8 character minimum), then enter the new password one more time to confirm, when prompted.
  
@@ -43,7 +43,7 @@ When you are done with your session, make sure to log out.  If you have a proces
 
 Setting up a FileZilla SFTP session:
 To transfer files between a local machine and one of the servers, open FileZilla and input the following settings then select "Quickconnect":
-* `Host`:  serverName.birc.emory.edu (replace "serverName" with `lens`, `rod`, `cone`, `falx`, or `ralph`)
+* `Host`:  serverName.birc.emory.edu (replace "serverName" with one of the server names listed above)
 * `Username`:  NIC account username
 * `Password`:  NIC account password
 * `Port`:  22
@@ -55,7 +55,7 @@ A notification about the server's host key being unknown may appear.  If so, sel
 
 Setting up X2go:
 Select the New Session icon and input the following settings:
-* `Session name`:  something descriptive (such as the name of the server you're connecting to: rod or falx)
+* `Session name`:  something descriptive (such as the name of the server you're connecting to: "rod" or "falx")
 * `Host`:  serverName.birc.emory.edu (replace "serverName" with `rod` or `falx`)
 * `Login`:  NIC account username
 * `Session type`:  XFCE
