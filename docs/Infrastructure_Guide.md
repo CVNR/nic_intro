@@ -32,7 +32,7 @@ TurboVNC is a remote desktop application which allows accelerated 3D graphics fr
 
 [Download TurboVNC for Windows](https://sourceforge.net/projects/turbovnc/files/3.0.1/TurboVNC-3.0.1-x64.exe/download)
 
-After running the TurboVNC viewer, in the “VNC server” field, input:  'userName'@'serverName'.birc.emory.edu  (replace 'username' with your NIC account username, and 'serverName' with the one of the server names listed above, i.e. mvernon@cone.birc.emory.edu).
+After running the TurboVNC viewer, in the “VNC server” field, input:  'userName'@'serverName'.birc.emory.edu  (replace 'userName' with your NIC account username, and 'serverName' with one of the server names listed above, i.e. mvernon@cone.birc.emory.edu).
  
 After logging into TurboVNC for the first time, you should be prompted to change your password.  You will first be asked to input your current LDAP password then input what you’d like your new password to be (there is an 8 character minimum), then enter the new password one more time to confirm, when prompted.
  
