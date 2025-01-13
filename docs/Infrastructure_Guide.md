@@ -15,7 +15,7 @@ The NIC processing and data storage servers are hosted from an isolated CVNR NIC
 
 New server names:  `shar`, `selune`, `lolth`
 
-Aged server names:  `cone`, `lens`, `ralph`
+Aged server names:  `cone`, `lens`
 
 Legacy software server names:  `rod`, `falx` 
 
