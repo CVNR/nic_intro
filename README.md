@@ -10,4 +10,4 @@ Welcome to the Neuroimaging Core (NIC) GitHub page! In this repository you will 
 
 [Data Recovery Procedure](docs/Data_Recovery_Guide.md) - Instructions on how to recover lost neuroimaging project data
 
-[Tips for Data Acquisition](docs/NIC_Tips_for_MRI_Acquisition.md) - Tips to reduce the loss of data and provide a smoother data collecting experience
+[Tips for Data Acquisition](docs/NIC_Tips_for_MRI_Acquisitions.md) - Tips to reduce the loss of data and provide a smoother data collecting experience
